@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    max-width: 400px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .coctel-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  footer {
+    background-color: #f9f9f9;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .footer-container p {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .footer-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+    

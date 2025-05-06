@@ -20,7 +20,35 @@ body {
   main {
     padding: 20px;
   }
+
+  #barman {
+    display: flex;
+    flex-direction: column;
+
+  }
   
+  #barman-info {
+    flex: 1;
+     display: flex;
+
+  }
+  
+  .barman .img {
+    width: 100px;
+    border-radius: 50%;
+   
+  }
+  .barman .img img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+   
+  }
+  
+
+
+
+
   .card {
     border: 1px solid #ccc;
     padding: 15px;
@@ -39,6 +67,7 @@ body {
     padding: 10px;
     text-align: center;
   }
+  
   footer {
     background-color: #f9f9f9;
     padding: 10px 0;
